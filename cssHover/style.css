@@ -1,0 +1,141 @@
+body{
+    text-align : center;
+}
+
+
+.bgbox{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+    background : rgba(161, 161, 161, 0.555);
+    height: 300px;
+    width: 292px;
+}
+
+/*// BOY //*/
+
+.boy{
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    transition: transform 200ms ease-in-out;
+}
+
+.text_boy{
+    position: absolute;
+    top: -29px;
+    left: 46px;
+    font-family: Courier bold;
+    font-size: 90%;
+    opacity: 0;
+    transition: opacity 50ms 1000ms ease-out;
+    pointer-events: none;
+
+}
+
+.bubble_boy{
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    opacity: 0;
+    transition: opacity 100ms 500ms ease-out;
+    pointer-events: none;
+}
+
+.boy:hover{
+    transform: scale(1.1);
+}
+
+.boy:hover .bubble_boy{
+    opacity: 1;
+}
+
+.boy:hover .text_boy{
+    opacity: 1;
+}
+
+/*// GIRL //*/
+
+.girl{
+    position: absolute;
+    top: 130px;
+    left: 120px;
+    transition: transform 200ms ease-in-out;
+}
+
+.text_girl{
+    position: absolute;
+    top: -29px;
+    left: 46px;
+    font-family: Courier bold;
+    font-size: 90%;
+    opacity: 0;
+    transition: opacity 50ms 1000ms ease-out;
+    pointer-events: none;
+
+}
+
+.bubble_girl{
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    opacity: 0;
+    transition: opacity 100ms 500ms ease-out;
+    pointer-events: none;
+}
+
+.girl:hover{
+    transform: scale(1.1);
+}
+
+.girl:hover .bubble_girl{
+    opacity: 1;
+}
+
+.girl:hover .text_girl{
+    opacity: 1;
+}
+
+/*// MAN //*/
+
+.man{
+    position: absolute;
+    top: 130px;
+    left: 215px;
+    transition: transform 200ms ease-in-out;
+}
+
+.text_man{
+    position: absolute;
+    top: -29px;
+    left: 46px;
+    font-family: Courier bold;
+    font-size: 90%;
+    opacity: 0;
+    transition: opacity 50ms 1000ms ease-out;
+    pointer-events: none;
+
+}
+
+.bubble_man{
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    opacity: 0;
+    transition: opacity 100ms 500ms ease-out;
+    pointer-events: none;
+}
+
+.man:hover{
+    transform: scale(1.1);
+}
+
+.man:hover .bubble_man{
+    opacity: 1;
+}
+
+.man:hover .text_man{
+    opacity: 1;
+}
