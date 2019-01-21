@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>space</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <a href=https://pigg.fi> <i class="fa fa-arrow-circle-left" style="font-size:48px;color:whitesmoke"></i></a>
+</head>
+
+<body id="parent">
+  <div style="padding-left: 50%; padding-top: 25%">
+    <input style="position: absolute" id="goup" type="image" src="rocket.png" width="48" height="48">
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+
+    const smallstar = "id='starSmall'";
+    const mediumstar = "id='starMedium'";
+    const bigstar = "id='starBig'";
+    const massivestar = "id='starMassive'";
+    const stylePaddingBottom = "style='padding-bottom: ";
+    const stylePaddingLeft = "padding-left: ";
+    var paddingBottomValue = 0;
+    var paddingLeftValue = 0;
+    var choose = 0;
+
+
+    $("#goup").click(function goUp() {
+
+      $('#parent').append("<embed name='GoodEnough' src='still.wav' loop='true' hidden='true' autostart='true'>");
+      $('#parent').append("<embed name='GoodEnough' id='rocket'");
+
+      for (i = 0; i < 3000; i++) {
+
+        paddingBottomValue = 0;
+        paddingLeftValue = Math.floor((Math.random() * 100) + 1);
+        choose = Math.floor((Math.random() * 1000) + 1);
+
+        if (choose <= 600) {
+          $('#parent').append("<div " + stylePaddingBottom + paddingBottomValue + "px;" + stylePaddingLeft + paddingLeftValue + "%'><img " + smallstar + "></img></div>");
+        }
+
+        else if (choose <= 800 && choose > 601) {
+          $('#parent').append("<div " + stylePaddingBottom + paddingBottomValue + "px;" + stylePaddingLeft + paddingLeftValue + "%'><img " + mediumstar + "></img></div>");
+        }
+
+        else if (choose <= 999 && choose > 801) {
+          $('#parent').append("<div " + stylePaddingBottom + paddingBottomValue + "px;" + stylePaddingLeft + paddingLeftValue + "%'><img " + bigstar + "></img></div>");
+        }
+
+        else if (choose == 1000) {
+          $('#parent').append("<div " + stylePaddingBottom + paddingBottomValue + "px;" + stylePaddingLeft + paddingLeftValue + "%'><img " + massivestar + "></img></div>");
+        }
+
+        else {
+          $('#parent').append("<div " + stylePaddingBottom + paddingBottomValue + "px;" + stylePaddingLeft + paddingLeftValue + "%'><img " + smallstar + "></img></div>");
+        }
+
+      }
+    });
+  </script>
+</body>
+
+</html>

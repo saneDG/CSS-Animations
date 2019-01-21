@@ -1,0 +1,95 @@
+@keyframes movingUpSmall {
+  0%   {top: -50000px}
+  100% {top: 0px}
+}
+@keyframes movingUpMedium {
+  0%   {top: -50000px}
+  100% {top: 0px}
+}
+@keyframes movingUpBig {
+  0%   {top: -50000px}
+  100% {top: 0px}
+}
+@keyframes movingUpMassive {
+  0%   {top: -50000px}
+  100% {top: 0px}
+}
+@keyframes moveRocket {
+  0%   {top: 0px}
+  20% {top: -100px}
+  100% {top: 0px}
+}
+
+#starSmall {
+  position: relative;
+  animation-name: movingUpSmall;
+  animation-duration: 1000s;
+  height: 2px;
+  width: 2px;
+  border-radius: 100%;
+  -webkit-box-shadow: 0px 0px 50px 5px whitesmoke;
+  -moz-box-shadow: 0px 0px 50px 5px whitesmoke;
+  box-shadow: 0px 0px 50px 5px whitesmoke;
+  background-color: whitesmoke;
+}
+
+#starMedium {
+  position: relative;
+  animation-name: movingUpMedium;
+  animation-duration: 800s;
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+  -webkit-box-shadow: 0px 0px 50px 5px whitesmoke;
+  -moz-box-shadow: 0px 0px 50px 5px whitesmoke;
+  box-shadow: 0px 0px 50px 5px whitesmoke;
+  background-color: whitesmoke;
+}
+
+#starBig {
+  position: relative;
+  animation-name: movingUpBig;
+  animation-duration: 600s;
+  height: 8px;
+  width: 8px;
+  border-radius: 100%;
+  -webkit-box-shadow: 0px 0px 50px 5px whitesmoke;
+  -moz-box-shadow: 0px 0px 50px 5px whitesmoke;
+  box-shadow: 0px 0px 50px 5px whitesmoke;
+  background-color: whitesmoke;
+}
+
+#starMassive {
+  position: relative;
+  animation-name: movingUpBig;
+  animation-duration: 200s;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  -webkit-box-shadow: 0px 0px 50px 5px whitesmoke;
+  -moz-box-shadow: 0px 0px 50px 5px whitesmoke;
+  box-shadow: 0px 0px 50px 5px whitesmoke;
+  background-color: whitesmoke;
+}
+
+#rocket {
+  position: relative;
+  animation-name: biggerBall;
+  animation-duration: 5s;
+}
+
+#backButton {
+  
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  overflow: hidden;
+  background-color: black;
+}
+input {
+  outline:0;
+}
