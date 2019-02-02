@@ -54,6 +54,6 @@
 ```
 # :rocket: Rocket animation (http://raketti.pigg.fi/).
 
-<a href="https://gyazo.com/6aa14f89836123bc7cb89b919fd433b5"><video alt="Video from Gyazo" width="800" autoplay muted loop playsinline><source src="https://i.gyazo.com/6aa14f89836123bc7cb89b919fd433b5.mp4" type="video/mp4" /></video></a>
+<a href="https://gyazo.com/6aa14f89836123bc7cb89b919fd433b5"><img src="https://i.gyazo.com/6aa14f89836123bc7cb89b919fd433b5.gif" alt="Image from Gyazo" width="800"/></a>
 
 **Javascript and css. Each star you see is its own div and their position is changed by using css animations**
