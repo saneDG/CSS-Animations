@@ -1,8 +1,10 @@
 # CSS-Animations
 
 <a href="https://gyazo.com/f4d7471c668f90252af70a221589ffb2"><img src="https://i.gyazo.com/f4d7471c668f90252af70a221589ffb2.gif" alt="Image from Gyazo" width="288"/></a>
-# Hover animation. You can use my animation in your website using this css:
+# Hover animation.
 <a href="https://gyazo.com/627816aa6760f7326ab8177890216b83"><img src="https://i.gyazo.com/627816aa6760f7326ab8177890216b83.gif" alt="Image from Gyazo" width="294"/></a>
+
+**You can use my animation in your website using this css:**
 
 ```
 /*// BOY //*/
