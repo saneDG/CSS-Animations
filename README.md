@@ -52,7 +52,7 @@
     opacity: 1;
 }
 ```
-# [:rocket: Rocket animation] (http://raketti.pigg.fi/).
+# :rocket: Rocket animation (http://raketti.pigg.fi/).
 
 <a href="https://gyazo.com/e9327085b95f6d78e09cea1e3d1ea134" style="heihgt: 100px; width: 200px"><img src="https://i.gyazo.com/e9327085b95f6d78e09cea1e3d1ea134.png" alt="Image from Gyazo" width="1858"/></a>
 
