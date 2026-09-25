@@ -1,6 +1,3 @@
-# :rocket: Rocket animation - http://raketti.pigg.fi/.
-*click the rocket to start
-
 <a href="https://gyazo.com/6aa14f89836123bc7cb89b919fd433b5"><img src="https://i.gyazo.com/6aa14f89836123bc7cb89b919fd433b5.gif" alt="Image from Gyazo" width="800"/></a>
 
 **Javascript and css. Each star you see is its own div and their position is changed by using css animations**
